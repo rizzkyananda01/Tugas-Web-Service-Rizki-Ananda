@@ -1,0 +1,113 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT loginstaffpendidikan (dosen,mahasiswa,teknisi,satpam,pemilikkantin)>
+<!ATTLIST loginstaffpendidikan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT dosen (namadosen,nikdosen,alamat,kota,jk,agama,pekerjaan,tl,
+                 kewarganegaraan,tahunkerja)>
+<!ATTLIST dosen
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT mahasiswa (namamahasiswa,alamat,kontak,jk,agama,status,tl,email,umur,
+                     jurusan)>
+<!ATTLIST mahasiswa
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT teknisi (namateknisi,alamat,kontak,jk,agama,pekerjaan,tl,email,umur,
+                   jabatan)>
+<!ATTLIST teknisi
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT satpam (nama,alamat,kontak,jk,agama,pekerjaan,tl,email,umur,jabatan)>
+<!ATTLIST satpam
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT pemilikkantin (nama,alamat,kontak,jk,agama,pekerjaan,tl,umur,hobi,
+                         beratbadan)>
+<!ATTLIST pemilikkantin
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT namadosen (#PCDATA)>
+<!ATTLIST namadosen
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT nikdosen (#PCDATA)>
+<!ATTLIST nikdosen
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT kota (#PCDATA)>
+<!ATTLIST kota
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT kewarganegaraan (#PCDATA)>
+<!ATTLIST kewarganegaraan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT tahunkerja (#PCDATA)>
+<!ATTLIST tahunkerja
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT namamahasiswa (#PCDATA)>
+<!ATTLIST namamahasiswa
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT status (#PCDATA)>
+<!ATTLIST status
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT jurusan (#PCDATA)>
+<!ATTLIST jurusan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT namateknisi (#PCDATA)>
+<!ATTLIST namateknisi
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT hobi (#PCDATA)>
+<!ATTLIST hobi
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT beratbadan (#PCDATA)>
+<!ATTLIST beratbadan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT alamat (#PCDATA)>
+<!ATTLIST alamat
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT jk (#PCDATA)>
+<!ATTLIST jk
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT agama (#PCDATA)>
+<!ATTLIST agama
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT pekerjaan (#PCDATA)>
+<!ATTLIST pekerjaan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT tl (#PCDATA)>
+<!ATTLIST tl
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT kontak (#PCDATA)>
+<!ATTLIST kontak
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT umur (#PCDATA)>
+<!ATTLIST umur
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT jabatan (#PCDATA)>
+<!ATTLIST jabatan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT nama (#PCDATA)>
+<!ATTLIST nama
+    xmlns CDATA #FIXED ''>
